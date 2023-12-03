@@ -10,6 +10,9 @@ FROM table_name
 WHERE condition;
 
 --The WHERE clause is often used with other logical operators like = (equals) and != (not equals) to filter down rows.=,!=,<,>,<=,>=
+-- Review
+
+
 
 
 
