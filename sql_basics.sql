@@ -28,4 +28,11 @@ FROM table_name
 WHERE condition(s)
 ORDER BY column;
 
+SELECT column1, column2
+FROM table_name
+WHERE condition(s)
+ORDER BY column1 ASC, column2 DESC;
 
+SELECT policy_holder_id, call_category, call_received 
+FROM callers
+ORDER BY 1,3 DESC;
