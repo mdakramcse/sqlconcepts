@@ -21,6 +21,11 @@ WHERE condition;
 --how LIKE allows you to match a value against a pattern
 
 
+--In SQL, the ORDER BY clause allows you to reorder your results based on the data in one or more columns.
 
+SELECT column1, column2
+FROM table_name
+WHERE condition(s)
+ORDER BY column;
 
 
