@@ -20,3 +20,14 @@ GROUP BY ticker
 ORDER BY avg DESC;
 
 --it takes the FAANG stock data, and finds the average stock open price for each ticker symbol. Then, the ORDER BY clause orders the average stock open price, from highest to lowest:
+
+distinct
+
+--The DISTINCT SQL command is used in conjunction with the SELECT statement to return only distinct (different) values. 
+
+--DISTINCT can be particularly helpful when exploring a new data set.
+
+SELECT category, COUNT(DISTINCT product)
+FROM product_spend
+GROUP BY category;
+
