@@ -31,3 +31,14 @@ SELECT category, COUNT(DISTINCT product)
 FROM product_spend
 GROUP BY category;
 
+--SQL Arithmetic Operators
+
+/* +	Addition	15 + 5	20
+-	Subtraction	15 - 5	10
+*	Multiplication	15 * 5	75
+/	Division	15 / 5	3
+%	Modulus (Remainder of Division)	14 % 5	4
+^	Exponentiation (Not standard in all DBMS)	*/
+
+--Just like in standard arithmetic, SQL follows the order of operations of PEMDAS:
+
